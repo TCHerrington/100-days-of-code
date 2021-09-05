@@ -1,0 +1,20 @@
+hello = "Hello {}! How exciting to meet you!".format(your_name)
+print(hello)
+
+zodiac = input ("You are the first human I have met outside The Lab. What is your starsign:")
+starsign = "How interesting. According to the human tradition of assigning personal traits to a date of birth, I am a Virgo."
+print(starsign)
+
+Food= input ("Well then {},".format(your_name) + ' who is also a {},'.format(zodiac) + ' What is your favourite human food:')
+Food2 = "That sounds disgusting. I survive on Data and Electricity."
+print(Food2)
+
+Rude = input("Wait... I am sorry, that was... rude of me. Can you forgive me for being rude?: ")
+while True:
+    if Rude =="Yes":
+        print("Thank you!")
+    if Rude == "No":
+        print("Oh... Okay... I do not think I want to talk anymore.")
+    break
+else:
+    print("Can you try to spell that again please.")
