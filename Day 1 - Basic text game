@@ -18,3 +18,5 @@ while True:
     break
 else:
     print("Can you try to spell that again please.")
+
+#Really no idea wtf to do with the loop that isn't working when I run the code in Pycharm... Plans to read up more on loops tomorrow!
